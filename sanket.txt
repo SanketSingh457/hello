@@ -1,1 +1,42 @@
-grbibvhfhdfb
+git init
+touch my_file.txt
+add my_file.txt
+git commit -m "Initial commit"
+
+exp2
+git branch
+git checkout master
+git checkout -b  feature-branch
+git add .
+git commit -m "commit"
+git checkout master
+git merge feature-branch
+
+exp3
+git checkout master
+touch test.txt
+git add .
+git stash save"will be modified later"
+git checkout -b target-branch
+git stash apply
+
+exp4
+git clone https.//
+
+exp5 
+
+git checkout -b local branch
+git remote add origin https.//
+git fetch origin
+git rebase origin/main
+git rebase --continue
+git push origin localbranch
+
+exp6
+git branch master
+git checkout -b feature-branch
+vi file.txt
+git add .
+git commit -m "Initial Commit"
+git checkout master
+git merge feature-branch -m 
