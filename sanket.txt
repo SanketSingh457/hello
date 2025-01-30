@@ -39,4 +39,26 @@ vi file.txt
 git add .
 git commit -m "Initial Commit"
 git checkout master
-git merge feature-branch -m 
+git merge feature-branch -m "Merging to feature branch"
+
+
+exp7
+git tag v1.0
+git show v1.o
+
+exp8
+
+git cherry-pick <start-commit>
+
+exp9
+git show <commit-id>
+
+exp 10
+git log --author="sanket" -- since="2025-01-01" --until="2025-02-30"
+
+exp11
+git log -n 1
+
+exp 12
+git revert <commit-id>
+
